@@ -228,6 +228,57 @@ select{
     cursor: pointer;
 }
 
+/* satelite */
+.bn-title h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.bn-title p{
+    font-size: 1rem;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+.banner-1{
+    gap: 24px;
+    padding: 48px;
+    background: white;
+    border-radius: 24px;
+    margin-bottom: 32px;
+}
+.bnb{
+    display: flex;
+    flex-direction:row-reverse;
+}
+.banner-1 .image img{
+    max-width: 408px;
+    height: 306px;
+    border-radius: 16px;
+}
+.bn-title h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.bn-title img{
+    max-width: 134px;
+    margin-bottom: 12px;
+}
+.time{
+    gap: 12px;
+    font-size: 1rem;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 12px;
+}
+.bn-title p{
+    font-size: 1rem;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
 
 
 
@@ -255,7 +306,7 @@ main section, header{
     padding: 20px 0;
 }
 .card-container{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr;
     gap: 20px;
 }
 .card{
@@ -289,5 +340,17 @@ table{
 thead td, tbody td {
     padding: 10px;
     font-size: 10px;
+}
+.banner-1, .bnb{
+    flex-direction:column;
+    padding: 10px;
+}
+.banner-1 img{
+    width: 100%;
+    height: auto;
+}
+.bn-title h1{
+    font-size: 1.3rem;
+    
 }
 }
